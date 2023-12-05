@@ -1,0 +1,155 @@
+{
+    "data": {
+        "listEquipments": {
+            "items": [
+                {
+                    "id": "equ_compactor",
+                    "name": "compactor",
+                    "family": "",
+                    "displayName": "Compactor"
+                },
+                {
+                    "id": "equ_disposer",
+                    "name": "disposer",
+                    "family": "",
+                    "displayName": "Disposer"
+                },
+                {
+                    "id": "equ_refrigerator",
+                    "name": "refrigerator",
+                    "family": "Laundry",
+                    "displayName": "Refrigerators"
+                },
+                {
+                    "id": "equ_electricrange",
+                    "name": "electricrange",
+                    "family": "Laundry",
+                    "displayName": "Electric Ranges"
+                },
+                {
+                    "id": "equ_dishwasher",
+                    "name": "dishwasher",
+                    "family": "Laundry",
+                    "displayName": "Dishwashers"
+                },
+                {
+                    "id": "equ_mwo",
+                    "name": "mwo",
+                    "family": "Laundry",
+                    "displayName": "Microwave Ovens"
+                },
+                {
+                    "id": "equ_rac",
+                    "name": "rac",
+                    "family": "Laundry",
+                    "displayName": "Room Air Conditioners"
+                },
+                {
+                    "id": "equ_freezer",
+                    "name": "freezer",
+                    "family": "Laundry",
+                    "displayName": "Freezers"
+                },
+                {
+                    "id": "equ_washer",
+                    "name": "washer",
+                    "family": "Laundry",
+                    "displayName": "Washers"
+                },
+                {
+                    "id": "abf3f7ae-6f0a-41e8-9a0e-d559778d3854",
+                    "name": "testing",
+                    "family": "",
+                    "displayName": "testing"
+                },
+                {
+                    "id": "equ_gasrange",
+                    "name": "gasrange",
+                    "family": "Laundry",
+                    "displayName": "Gas Ranges"
+                },
+                {
+                    "id": "equ_dryer",
+                    "name": "dryer",
+                    "family": "Laundry",
+                    "displayName": "Dryers"
+                },
+                {
+                    "id": "equ_smallappliances",
+                    "name": "smallappliances",
+                    "family": "Laundry",
+                    "displayName": "Small Appliances"
+                }
+            ]
+        },
+        "listDocumentTypes": {
+            "items": [
+                {
+                    "id": "doctype_PARTS_CATALOG",
+                    "name": "Parts Catalog",
+                    "key": "parts_catalog",
+                    "description": null,
+                    "required": false,
+                    "fileTypes": [],
+                    "enabled": false
+                },
+                {
+                    "id": "doctype_OTHER",
+                    "name": "Other",
+                    "key": "other",
+                    "description": null,
+                    "required": false,
+                    "fileTypes": [],
+                    "enabled": false
+                },
+                {
+                    "id": "doctype_CASE_TREE",
+                    "name": "Decision Tree",
+                    "key": "cbr_tree",
+                    "description": null,
+                    "required": true,
+                    "fileTypes": [],
+                    "enabled": true
+                },
+                {
+                    "id": "doctype_SEARCH_CATALOG",
+                    "name": "Search Catalog",
+                    "key": "search_catalog",
+                    "description": null,
+                    "required": false,
+                    "fileTypes": [],
+                    "enabled": false
+                },
+                {
+                    "id": "doctype_PARAPHRASES",
+                    "name": "Paraphrases",
+                    "key": "paraphrases",
+                    "description": null,
+                    "required": false,
+                    "fileTypes": [],
+                    "enabled": false
+                },
+                {
+                    "id": "doctype_MODELS_LIST",
+                    "name": "Models List",
+                    "key": "model_list",
+                    "description": null,
+                    "required": true,
+                    "fileTypes": [
+                        "text/csv"
+                    ],
+                    "enabled": true
+                },
+                {
+                    "id": "doctype_BASE_CONFIG",
+                    "name": "Base Config",
+                    "key": "base_config",
+                    "description": null,
+                    "required": false,
+                    "fileTypes": [],
+                    "enabled": false
+                }
+            ]
+        }
+    }
+}

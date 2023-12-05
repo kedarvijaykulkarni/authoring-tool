@@ -1,0 +1,13 @@
+/* Card Section */
+.card {
+    &-document {
+        .card {
+            &-title {
+                max-width: 250px;
+            }
+        }
+    }
+    &.locked {
+        opacity: 50%;
+    }
+}

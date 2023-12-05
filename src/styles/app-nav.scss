@@ -1,0 +1,16 @@
+.nav-item {
+    line-height: normal;
+    a.nav-link {
+        font-weight: 700;
+        color:  $secondary;
+        border-bottom: transparent 2px solid;
+        &:hover {
+            border-bottom: $dark 2px solid;
+            transition: border .15s ease-in-out;
+        }
+        &.active {
+            border-bottom: $dark 2px solid;
+            color: $secondary;
+        }
+    }
+}

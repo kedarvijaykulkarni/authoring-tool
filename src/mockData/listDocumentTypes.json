@@ -1,0 +1,59 @@
+{
+    "data": {
+        "listDocumentTypes": {
+            "items": [
+                {
+                    "id": "doctype_PARTS_CATALOG",
+                    "name": "Parts Catalog",
+                    "key": "parts_catalog",
+                    "fileTypes": [],
+                    "enabled": false
+                },
+                {
+                    "id": "doctype_OTHER",
+                    "name": "Other",
+                    "key": "other",
+                    "fileTypes": [],
+                    "enabled": false
+                },
+                {
+                    "id": "doctype_CASE_TREE",
+                    "name": "Decision Tree",
+                    "key": "cbr_tree",
+                    "fileTypes": [],
+                    "enabled": true
+                },
+                {
+                    "id": "doctype_SEARCH_CATALOG",
+                    "name": "Search Catalog",
+                    "key": "search_catalog",
+                    "fileTypes": [],
+                    "enabled": false
+                },
+                {
+                    "id": "doctype_PARAPHRASES",
+                    "name": "Paraphrases",
+                    "key": "paraphrases",
+                    "fileTypes": [],
+                    "enabled": false
+                },
+                {
+                    "id": "doctype_MODELS_LIST",
+                    "name": "Models List",
+                    "key": "model_list",
+                    "fileTypes": [
+                        "text/csv"
+                    ],
+                    "enabled": true
+                },
+                {
+                    "id": "doctype_BASE_CONFIG",
+                    "name": "Base Config",
+                    "key": "base_config",
+                    "fileTypes": [],
+                    "enabled": false
+                }
+            ]
+        }
+    }
+}

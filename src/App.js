@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  Error,
+  Dashboard,
+  DashboardDetails,
+  Authoring,
+  Deployment,
+  Login,
+  SessionOut,
+} from "./pages";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />}></Route>
+        <Route path="/Login" element={<Login />}></Route>
+        <Route path="/Logout" element={<SessionOut />}></Route>
+
+        <Route path="/Dashboard" element={<Dashboard />}></Route>
+        <Route path="/Dashboard/:environment" element={<Dashboard />}></Route>
+        {/* <Route path="/Dashboard/details" element={<DashboardDetails />}></Route> */}
+
+        <Route path="/authoring" element={<Authoring />}></Route>
+        <Route path="/authoring/:documentId" element={<Authoring />}></Route>
+
+
+        <Route path="/Deployment" element={<Deployment />}></Route>
+        <Route path="*" element={<Error />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
